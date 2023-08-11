@@ -8,15 +8,14 @@ import imgMaosDev from "../../assets/images/maos_dev.png";
 import imgAlfinete from "../../assets/images/alfinete.png";
 
 //componentes
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+
+
 
 function Home() {
 
 
     return (
         <div>
-            <Header/>
             <main id="main_home">
                 <h1>página inicial VSconnect</h1>
                 <section className="banner">
