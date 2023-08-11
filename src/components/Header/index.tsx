@@ -3,6 +3,8 @@ import imgLogo from "../../assets/images/logo.svg";
 
 import "./style.css"
 
+import {Link} from "react-router-dom"
+
 function Header() {
 
     function mostrarMenu() {
@@ -39,9 +41,9 @@ function Header() {
                     <img className="header_logo" src={imgLogo} alt="" />
                     <nav>
                         <div id="menu_links" className="menu_links">
-                            <a href="../Home/index.html">home</a>
-                            <a href="#">serviços</a>
-                            <a href="../CadastroDev/index.html">cadastro</a>
+                            <Link to={"/"}>Home</Link>
+                            <Link to={"Servicos"}>Serviços</Link>
+                            <Link to={"Cadastro"}>Cadastrar</Link>
                         </div>
                         <a className="header_icone_login" href="../Login/index.html">
                             <svg xmlns="http://www.w3.org/2000/svg"

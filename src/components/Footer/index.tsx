@@ -37,9 +37,9 @@ function Footer() {
                         <h2>Contatos</h2>
                         <div>
 
-                            <Link to={"/"}><img src={iconFace} alt="" /></Link>
-                            <Link to={"#"}><img src={iconInsta} alt="" /></Link>
-                            <Link to={"#"}><img src={iconLinkedin} alt="" /></Link>
+                            <Link to={"https://pt-br.facebook.com/"}><img src={iconFace} alt="" /></Link>
+                            <Link to={"https://www.instagram.com/"}><img src={iconInsta} alt="" /></Link>
+                            <Link to={"https://br.linkedin.com/"}><img src={iconLinkedin} alt="" /></Link>
 
                         </div>
                         <a href="mailto:">contato@vsconnect.com</a>
