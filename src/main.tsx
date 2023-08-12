@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';
 import Home from "./pages/Home/";
 import ListaServicos from './pages/ListaServicos';
 import Header from "../src/components/Header"
+import ListaDevs from './pages/ListaDevs';
 
 //Rotas
 
@@ -20,8 +21,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
     <Header/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path="Servicos" element={<ListaServicos/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='Lista/Servicos' element={<ListaServicos/>}/>
+        <Route path='Lista/Devs' element={<ListaDevs/>}/>
       </Routes>
 
       <Footer />
