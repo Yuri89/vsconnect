@@ -13,7 +13,7 @@ function CardDev(props: any) {
                 </div>
                 <div className="techs">
                     {
-                        props.techs.map((tech: String, indice: number,) => {
+                        props.listaTechs.map((tech: String, indice: number,) => {
                             return <span key={indice}>{tech}</span>
                         })
                     }

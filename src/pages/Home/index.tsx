@@ -7,6 +7,8 @@ import imgClientes from "../../assets/images/clientes.png";
 import imgMaosDev from "../../assets/images/maos_dev.png";
 import imgAlfinete from "../../assets/images/alfinete.png";
 
+import {Link} from 'react-router-dom'
+
 //componentes
 
 
@@ -25,7 +27,7 @@ function Home() {
                             oportunidades.</p>
                         <p className="banner_slogan_l3">Conecte-se e comece a desvendar esse mundo!</p>
                         <div className="banner_botoes">
-                            <a className="botao banner_botao_dev" href="#">desenvolvedor</a>
+                        <Link to={'Lista/Devs'} className="botao banner_botao_dev">desenvolvedor</Link>
                             <a className="botao banner_botao_cli" href="#">cliente</a>
                         </div>
                     </div>

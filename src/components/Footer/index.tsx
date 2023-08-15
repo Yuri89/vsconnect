@@ -25,11 +25,12 @@ function Footer() {
                     <div className="rodape_conteudo_paginas">
                         <h2>Páginas</h2>
                         <ul>
-                            <li>Login</li>
-                            <li>Home</li>
-                            <li>Listar Serviços</li>
-                            <li>Cadastrar Cliente</li>
-                            <li>Cadastrar Desenvolvedor</li>
+                            <Link to={'/'}><li>Login</li></Link>
+                            <Link to={'/'}><li>Home</li></Link>
+                            <Link to={'Lista/Servicos'}><li>Listar Serviços</li></Link>
+                            <Link to={'Lista/Dev'}><li>Lista Desenvolvedores</li></Link>
+                            <Link to={'/'}><li>Cadastrar Cliente</li></Link>
+                            <Link to={'/'}><li>Cadastrar Desenvolvedor</li></Link>
                         </ul>
                     </div>
                     <img src={imgLogo} alt="" />
