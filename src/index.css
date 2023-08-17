@@ -16,3 +16,16 @@
     --font1: 'Righteous', cursive;
     --font2: 'Titillium Web', sans-serif;
 }
+
+.container.para_devs{
+    background-color: #EFEFEF;
+    
+}
+.container.servicos{
+    background-color: #EFEFEF;
+    
+}
+.clientes_conteudo{
+    background-color: #EFEFEF;
+    padding: 10vh 10vw;
+}
