@@ -25,12 +25,12 @@ function PerfilUsuario() {
         .then((response: any) => {
             console.log(response)
 
-            setFoto(response.data.foto)
-            setNome(response.data.nome)
-            setEmail(response.data.email)
-            setUf(response.data.uf)
-            setCidade(response.data.cidade)
-            setListaSkills(response.data.listaSkills)
+            setNome(response.data.nome);
+            setFoto(response.data.user_img);
+            setEmail(response.data.email);
+            setCidade(response.data.cidade);
+            setUf(response.data.uf);
+            setListaSkills(response.data.hardSkills);
         })
         .catch((error: any) => window.alert("deu erro man"))
     }
