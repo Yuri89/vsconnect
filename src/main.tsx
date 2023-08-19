@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 
 
 //componentes
-import Home from "./pages/Home/";
+import Home from "./pages/Home";
 import ListaServicos from './pages/ListaServicos';
 import Header from "../src/components/Header"
 import ListaDevs from './pages/ListaDevs';
+import PerfilUsuario from './pages/PerfilUsuario';
 
 //Rotas
 
@@ -24,6 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='/' element={<Home/>}/>
         <Route path='Lista/Servicos' element={<ListaServicos/>}/>
         <Route path='Lista/Devs' element={<ListaDevs/>}/>
+        <Route path='perfil/:idUsuario' element={<PerfilUsuario/>}/>
       </Routes>
 
       <Footer />

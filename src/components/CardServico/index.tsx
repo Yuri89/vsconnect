@@ -7,7 +7,7 @@ function CardServico(props: any) {
             <div className="servico">
                 <div className="topo_servico">
                     <h3>{props.servicoName}</h3>
-                    <span>R$ {props.servicoValor}.00</span>
+                    <span>R$ {props.servicoValor}</span>
                 </div>
                 <p>{props.servicoDescricao}</p>
                 <div className="techs">

@@ -38,7 +38,7 @@ function ListaDevs() {
         const devsFiltrados = devs.filter((dev: any) => dev.hardSkills.includes(skillDigitado.toLocaleUpperCase()));
 
         if (devsFiltrados.length === 0) {
-            alert("Nenhum desenvolvedor(a) com essa skill :(")
+            alert("Nenhum Desenvolvedor(a) com essa skill :(")
         } else {
             //atribui valor de devs filtrado, ao state ListaDevsFiltrados 
             setDevs(devsFiltrados);
@@ -95,6 +95,7 @@ function ListaDevs() {
                                                 nome={dev.nome}
                                                 email={dev.email}
                                                 listaTechs={dev.hardSkills}
+                                                id={dev.id}
                                             />
                                         </li>
                                     })
