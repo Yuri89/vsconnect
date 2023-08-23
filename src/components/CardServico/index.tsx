@@ -1,9 +1,11 @@
+import { Link } from "react-router-dom"
 import "./style.css"
 
 function CardServico(props: any) {
 
     return (
         <>
+            <Link className="cardStyle" to={"/servico/"+ props.id}>
             <div className="servico">
                 <div className="topo_servico">
                     <h3>{props.servicoName}</h3>
@@ -18,6 +20,7 @@ function CardServico(props: any) {
                     }
                 </div>
             </div>
+            </Link>
         </>
     )
 }

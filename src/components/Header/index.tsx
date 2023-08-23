@@ -43,7 +43,7 @@ function Header() {
                         <div id="menu_links" className="menu_links">
                             <Link to={"/"}>Home</Link>
                             <Link to={"Lista/Servicos"}>Serviços</Link>
-                            <Link to={"Cadastro"}>Cadastrar</Link>
+                            <Link to={"cadastrar/usuario"}>Cadastrar</Link>
                         </div>
                         <a className="header_icone_login" href="../Login/index.html">
                             <svg xmlns="http://www.w3.org/2000/svg"

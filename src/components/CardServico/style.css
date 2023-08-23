@@ -1,3 +1,8 @@
+.cardStyle{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 .servico {
     width: 85%;
     margin: 0 auto;

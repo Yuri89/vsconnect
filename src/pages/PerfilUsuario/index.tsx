@@ -22,7 +22,7 @@ function PerfilUsuario() {
 
     function buscarUsuarioPorID(){
         api.get("users/" + idUsuario)
-        .then((response: any) => {
+        .then((response:any) => {
             console.log(response)
 
             setNome(response.data.nome);

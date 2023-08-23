@@ -89,6 +89,13 @@ footer {
     align-items: flex-end;
 }
 
+.rodape_conteudo_links li{
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
 .rodape_conteudo_contatos img {
     width: 45px;
     margin: 10px;
