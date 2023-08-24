@@ -10,7 +10,9 @@ import ListaDevs from './pages/ListaDevs';
 import PerfilUsuario from './pages/PerfilUsuario';
 import VisualizarServico from './pages/VisualizarServico';
 import CadastroUsuario from './pages/CadastroUsuario'
-;import Footer from './components/Footer';
+import Footer from './components/Footer';
+import CadastroServico from './pages/CadastroServico'
+
 //Rotas
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
@@ -32,6 +34,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path='perfil/:idUsuario' element={<PerfilUsuario/>}/>
         <Route path='servico/:idServico' element={<VisualizarServico/>}/>
         <Route path='cadastrar/usuario' element={<CadastroUsuario/>}/>
+        <Route path='cadastrar/servico' element={<CadastroServico/>}/>
       </Routes>
 
       <Footer />

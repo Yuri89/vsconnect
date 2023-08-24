@@ -29,8 +29,8 @@ function Footer() {
                             <Link to={'/'}><li>Home</li></Link>
                             <Link to={'Lista/Servicos'}><li>Listar Serviços</li></Link>
                             <Link to={'Lista/Devs'}><li>Lista Desenvolvedores</li></Link>
-                            <Link to={'/'}><li>Cadastrar Cliente</li></Link>
-                            <Link to={'/'}><li>Cadastrar Desenvolvedor</li></Link>
+                            <Link to={'cadastrar/servico'}><li>Cadastrar Cliente</li></Link>
+                            <Link to={'cadastrar/usuario'}><li>Cadastrar Desenvolvedor</li></Link>
                         </ul>
                     </div>
                     <img src={imgLogo} alt="" />
