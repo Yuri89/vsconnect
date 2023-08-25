@@ -24,6 +24,7 @@ function Login() {
         api.post("login" , usuario)
         .then((response:any) =>{
             window.alert("Login efetuado")
+            
             secureLocalStorage.setItem("user" , response.data)
             console.log(response)
 
