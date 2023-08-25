@@ -6,6 +6,10 @@ footer {
     color: var(--branco);
 }
 
+span{
+    color: var(--branco);
+}
+
 .rodape {
     display: flex;
     flex-direction: column;

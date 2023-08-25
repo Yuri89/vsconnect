@@ -32,7 +32,7 @@ function CadastroServico() {
             nome: nome,
             valor: valor,
             descricao: descricao,
-            techs: techs
+            techs: techsSelecionadas
         }
 
         api.post("servicos", cadastro)
